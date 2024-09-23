@@ -20,21 +20,21 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>Benito</td>
-                        <td>Loro</td>
-                        <td>Rojo</td>
-                    </tr>
-                    <tr>
-                        <td>Tom</td>
-                        <td>Leon</td>
-                        <td>amarillo</td>
-                    </tr>
-                    <tr>
-                        <td>Jerry</td>
-                        <td>Chinchilla</td>
-                        <td>Maron</td>
-                    </tr>
+                    <?php
+                    
+                    include("PHP/Intitis/Animales.php");
+                    $registro = get_All();
+                    if (count($registro)>0){
+                        foreach($registro as $row){
+                            echo "<tr>". "<td> ". $row->apodo . "</td>" . 
+                            "<td> " . $row->especie . "</td>" .
+                             "<td> " . $row->Color . "</td>".
+                             "</tr>";
+                        }
+
+                    }
+                    ?>
+
                 </tbody>
 
             </table>

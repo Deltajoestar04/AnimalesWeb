@@ -1,6 +1,6 @@
 <?php
 class animal{
-    public
+    public $id;
     public $apodo;
     public $especie;
     public $color;
