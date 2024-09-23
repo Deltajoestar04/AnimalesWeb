@@ -22,8 +22,8 @@
                 <h2>Consulta e ingrese los registros de animales existentes</h2>
                 <form action="">
                 
-                     <label for="apodo">Apodo:</label>
-                    <input type="text" maxlength="100" id="apodo">
+                     <label for="nombre">Nombre:</label>
+                    <input type="text" maxlength="100" id="nombre">
 
                      <label for="especie">Especie:</label>
                     <input type="text" maxlength="100" id="especie">

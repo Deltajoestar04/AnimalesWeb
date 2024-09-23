@@ -14,7 +14,7 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th>apodo</th>
+                        <th>nombre</th>
                         <th>Especie</th>
                         <th>Color</th>
                     </tr>
@@ -26,7 +26,7 @@
                     $registro = get_All();
                     if (count($registro)>0){
                         foreach($registro as $row){
-                            echo "<tr>". "<td> ". $row->apodo . "</td>" . 
+                            echo "<tr>". "<td> ". $row->nombre . "</td>" . 
                             "<td> " . $row->especie . "</td>" .
                              "<td> " . $row->Color . "</td>".
                              "</tr>";
