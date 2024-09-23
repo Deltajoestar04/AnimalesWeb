@@ -10,7 +10,7 @@ function get_All(){
     $listaAnimales = [];
     $path = $_SERVER['DOCUMETN_ROOT'];
     include($path."/animalesweb/php/connection/db.php");
-    $query = "SELECT id, apodo, especie, color from animal";
+    $query = "SELECT id, apodo, especie, color from animales";
     $result = $connection->query($sql);
     if($result->num_rows >0){
         while($rows = $result->fetch_assoc()){
