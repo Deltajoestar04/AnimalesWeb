@@ -1,8 +1,8 @@
 <?php
-$server= "localhost";
-$username= "root";
-$password= "carlos04";
-$dbname= "animales_web";
+$server= "162.241.2.39";
+$username= "itsonapp_244569";
+$password= "244569db#780G";
+$dbname= "itsonapp_244569";
 
 $connection = new mysqli ($server, $username, $password, $dbname);
 $connection ->set_charset("utf8");
