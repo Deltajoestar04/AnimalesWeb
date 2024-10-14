@@ -2,6 +2,7 @@
 
 <script src="SCRIPTS/ejemplo.js"></script>
 
+
         <div class="conteiner">
         <h1>Ejemplo</h1>
             <h2>otra cosa</h2>
