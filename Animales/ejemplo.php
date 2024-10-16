@@ -1,6 +1,6 @@
 <?php include ("header.php")?>
 
-<script src="AnimalesWebb/SCRIPTS/ejemplo.js"></script>
+<script src="AnimalesWeb/SCRIPTS/ejemplo.js"></script>
 
 
         <div class="conteiner">
