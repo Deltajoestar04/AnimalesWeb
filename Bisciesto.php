@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php include ("header.php")?>
 <script src="Bisciesto.js"></script>
 <link rel="stylesheet" href="css/styles.css" type="text/css">
@@ -38,4 +37,3 @@
 
         </div>
     <?php include("footer.php")?>
->>>>>>> 5b6a1c9149442b07f80fdaf5bb1fe4f83ba333ec
