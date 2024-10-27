@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function ejecutar(){
   
     var valor1= document.getElementById("valor1").value;
@@ -69,5 +68,4 @@ function ejecutar(){
 
     }
 
->>>>>>> 5b6a1c9149442b07f80fdaf5bb1fe4f83ba333ec
 }
